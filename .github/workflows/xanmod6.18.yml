@@ -7,6 +7,9 @@ name: 6.18-内核构建
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
